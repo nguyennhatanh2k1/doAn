@@ -1,0 +1,9 @@
+/* hóa đơn */
+.selected-button{
+    background-color: black;
+    color: white;
+}
+.buttonType:hover{
+    cursor: pointer;
+    background-color: gray;
+}

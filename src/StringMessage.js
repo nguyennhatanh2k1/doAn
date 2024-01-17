@@ -1,0 +1,1 @@
+export const errorMessage = "Vui lòng nhập đầy đủ thông tin"

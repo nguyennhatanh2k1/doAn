@@ -1,0 +1,21 @@
+
+.ant-upload{
+    width: 450px !important;
+    height: 450px !important;
+    /* align-items: center !important */
+};
+.ant-upload-list-item-thumbnail{
+    position: static;
+    display: block;
+    width: 450px !important;
+    height: 450px !important;
+    /* object-fit: contain; */
+}
+
+.ant-upload-list-item-container{
+    position: static;
+    display: block;
+    width: 450px !important;
+    height: 450px !important;
+    /* object-fit: contain; */
+}

@@ -1,0 +1,437 @@
+
+{
+  "sneakers": [
+    {
+      "id": 1,
+      "name": "Nike Air Max 90",
+      "category": "Men's Running Shoes",
+      "brand": "Nike",
+      "color": "Black/White",
+      "price": 120,
+      "quantity": 15
+    },
+    {
+      "id": 2,
+      "name": "Adidas Ultraboost",
+      "category": "Men's Running Shoes",
+      "brand": "Adidas",
+      "color": "Grey/White",
+      "price": 180,
+      "quantity": 10
+    },
+    {
+      "id": 3,
+      "name": "Converse Chuck Taylor All-Star",
+      "category": "Unisex Casual Shoes",
+      "brand": "Converse",
+      "color": "Red",
+      "price": 55,
+      "quantity": 20
+    },
+    {
+      "id": 4,
+      "name": "Puma Suede Classic",
+      "category": "Women's Fashion Sneakers",
+      "brand": "Puma",
+      "color": "Blue/White",
+      "price": 65,
+      "quantity": 18
+    },
+    {
+      "id": 5,
+      "name": "Reebok Classic Leather",
+      "category": "Women's Athletic Shoes",
+      "brand": "Reebok",
+      "color": "White/Gum",
+      "price": 70,
+      "quantity": 12
+    },
+    {
+      "id": 6,
+      "name": "Vans Old Skool",
+      "category": "Unisex Skateboarding Shoes",
+      "brand": "Vans",
+      "color": "Black/White",
+      "price": 60,
+      "quantity": 25
+    },
+    {
+      "id": 7,
+      "name": "New Balance 574",
+      "category": "Men's Lifestyle Sneakers",
+      "brand": "New Balance",
+      "color": "Grey/Blue",
+      "price": 80,
+      "quantity": 14
+    },
+    {
+      "id": 8,
+      "name": "Saucony Jazz Original",
+      "category": "Women's Running Shoes",
+      "brand": "Saucony",
+      "color": "Teal/Orange",
+      "price": 70,
+      "quantity": 9
+    },
+    {
+      "id": 9,
+      "name": "Asics Gel-Lyte III",
+      "category": "Men's Athletic Shoes",
+      "brand": "Asics",
+      "color": "Black/Red",
+      "price": 100,
+      "quantity": 22
+    },
+    {
+      "id": 10,
+      "name": "Fila Disruptor II",
+      "category": "Women's Chunky Sneakers",
+      "brand": "Fila",
+      "color": "White",
+      "price": 75,
+      "quantity": 16
+    },
+    {
+      "id": 11,
+      "name": "Under Armour HOVR Phantom",
+      "category": "Men's Running Shoes",
+      "brand": "Under Armour",
+      "color": "Black/Red",
+      "price": 140,
+      "quantity": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Running Shoes",
+      "description": "Sneakers designed for running and athletic activities."
+    },
+    {
+      "id": 2,
+      "name": "Casual Shoes",
+      "description": "Stylish and comfortable sneakers for everyday wear."
+    },
+    {
+      "id": 3,
+      "name": "Basketball Shoes",
+      "description": "Sneakers specialized for basketball with ankle support and cushioning."
+    },
+    {
+      "id": 4,
+      "name": "Skateboarding Shoes",
+      "description": "Sneakers optimized for skateboarding featuring durability and grip."
+    },
+    {
+      "id": 5,
+      "name": "Fashion Sneakers",
+      "description": "Trendy and fashionable sneakers for casual streetwear."
+    },
+    {
+      "id": 6,
+      "name": "Training Shoes",
+      "description": "Sneakers suitable for gym workouts and training sessions."
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Nike",
+      "description": "A multinational corporation known for its athletic shoes and apparel."
+    },
+    {
+      "id": 2,
+      "name": "Adidas",
+      "description": "A global brand offering sportswear and footwear for various sports."
+    },
+    {
+      "id": 3,
+      "name": "Converse",
+      "description": "Known for its iconic Chuck Taylor All-Star sneakers and casual footwear."
+    },
+    {
+      "id": 4,
+      "name": "Puma",
+      "description": "A well-known brand for athletic and casual footwear, apparel, and accessories."
+    },
+    {
+      "id": 5,
+      "name": "Reebok",
+      "description": "Produces sportswear and footwear for fitness and training."
+    },
+    {
+      "id": 6,
+      "name": "Vans",
+      "description": "Specializes in skateboarding shoes and lifestyle footwear."
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "name": "Black",
+      "description": "Classic and versatile color suitable for various styles."
+    },
+    {
+      "id": 2,
+      "name": "White",
+      "description": "Clean and neutral color that goes well with different outfits."
+    },
+    {
+      "id": 3,
+      "name": "Red",
+      "description": "Bold and vibrant color often used for making a statement."
+    },
+    {
+      "id": 4,
+      "name": "Blue",
+      "description": "A calming and popular color available in various shades."
+    },
+    {
+      "id": 5,
+      "name": "Grey",
+      "description": "A neutral color often associated with sophistication and balance."
+    },
+    {
+      "id": 6,
+      "name": "Green",
+      "description": "A refreshing and natural color representing growth and harmony."
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "name": "Khách hàng 1",
+      "address": "123 Đường ABC, Quận XYZ, Thành phố HCM",
+      "phone": "0123-456-789",
+      "status": "Chờ lấy hàng",
+      "orderedAt": "2023-11-01T10:00:00Z",
+      "receivedAt": null,
+      "totalPrice": 150
+    },
+    {
+      "id": 2,
+      "name": "Khách hàng 2",
+      "address": "456 Đường DEF, Quận LMN, Thành phố Hà Nội",
+      "phone": "0987-654-321",
+      "status": "Đang giao hàng",
+      "orderedAt": "2023-11-05T09:30:00Z",
+      "receivedAt": null,
+      "totalPrice": 200
+    },
+    {
+      "id": 3,
+      "name": "Khách hàng 3",
+      "address": "789 Đường GHI, Quận OPQ, Thành phố Đà Nẵng",
+      "phone": "0111-222-333",
+      "status": "Đã giao hàng",
+      "orderedAt": "2023-11-10T14:45:00Z",
+      "receivedAt": "2023-11-15T11:20:00Z",
+      "totalPrice": 120
+    },
+    {
+      "id": 4,
+      "name": "Khách hàng 4",
+      "address": "1010 Đường KLM, Quận RST, Thành phố Cần Thơ",
+      "phone": "0333-444-555",
+      "status": "Chờ lấy hàng",
+      "orderedAt": "2023-11-18T13:10:00Z",
+      "receivedAt": null,
+      "totalPrice": 180
+    },
+    {
+      "id": 5,
+      "name": "Khách hàng 5",
+      "address": "1212 Đường UVW, Quận XYZ, Thành phố HCM",
+      "phone": "0666-777-888",
+      "status": "Hoàn trả",
+      "orderedAt": "2023-11-22T08:20:00Z",
+      "receivedAt": null,
+      "totalPrice": 90
+    },
+    {
+      "id": 6,
+      "name": "Khách hàng 6",
+      "address": "1414 Đường XYZ, Quận ABC, Thành phố Hà Nội",
+      "phone": "0999-000-111",
+      "status": "Chờ lấy hàng",
+      "orderedAt": "2023-11-25T12:00:00Z",
+      "receivedAt": null,
+      "totalPrice": 210
+    },
+    {
+      "id": 7,
+      "name": "Khách hàng 7",
+      "address": "1616 Đường DEF, Quận LMN, Thành phố Đà Nẵng",
+      "phone": "0222-333-444",
+      "status": "Đã hủy",
+      "orderedAt": "2023-11-28T17:30:00Z",
+      "receivedAt": null,
+      "totalPrice": 130
+    },
+    {
+      "id": 8,
+      "name": "Khách hàng 8",
+      "address": "1818 Đường GHI, Quận OPQ, Thành phố Cần Thơ",
+      "phone": "0555-666-777",
+      "status": "Chờ lấy hàng",
+      "orderedAt": "2023-12-01T09:45:00Z",
+      "receivedAt": null,
+      "totalPrice": 175
+    },
+    {
+      "id": 9,
+      "name": "Khách hàng 9",
+      "address": "2020 Đường KLM, Quận RST, Thành phố Hà Nội",
+      "phone": "0888-999-000",
+      "status": "Đang giao hàng",
+      "orderedAt": "2023-12-05T11:15:00Z",
+      "receivedAt": null,
+      "totalPrice": 240
+    },
+    {
+      "id": 10,
+      "name": "Khách hàng 10",
+      "address": "2222 Đường UVW, Quận XYZ, Thành phố Đà Nẵng",
+      "phone": "0777-888-999",
+      "status": "Chờ lấy hàng",
+      "orderedAt": "2023-12-10T14:00:00Z",
+      "receivedAt": null,
+      "totalPrice": 195
+    },
+    {
+      "id": 11,
+      "name": "Khách hàng 11",
+      "address": "2424 Đường ABC, Quận LMN, Thành phố Cần Thơ",
+      "phone": "0444-555-666",
+      "status": "Đã giao hàng",
+      "orderedAt": "2023-12-15T10:30:00Z",
+      "receivedAt": "2023-12-20T13:45:00Z",
+      "totalPrice": 185
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Nguyễn Văn An",
+      "phone": "0123-456-789",
+      "address": "123 Đường ABC, Quận XYZ, Thành phố HCM",
+      "email": "an.nguyen@example.com",
+      "salary": 12000000,
+      "status": "Đang làm việc"
+    },
+    {
+      "id": 2,
+      "name": "Trần Thị Bình",
+      "phone": "0987-654-321",
+      "address": "456 Đường DEF, Quận LMN, Thành phố Hà Nội",
+      "email": "binh.tran@example.com",
+      "salary": 10000000,
+      "status": "Đang làm việc"
+    },
+    {
+      "id": 3,
+      "name": "Lê Văn Cường",
+      "phone": "0111-222-333",
+      "address": "789 Đường GHI, Quận OPQ, Thành phố Đà Nẵng",
+      "email": "cuong.le@example.com",
+      "salary": 9000000,
+      "status": "Tạm nghỉ"
+    },
+    {
+      "id": 4,
+      "name": "Phạm Thị Dung",
+      "phone": "0333-444-555",
+      "address": "1010 Đường KLM, Quận RST, Thành phố Cần Thơ",
+      "email": "dung.pham@example.com",
+      "salary": 11000000,
+      "status": "Đang làm việc"
+    },
+    {
+      "id": 5,
+      "name": "Hoàng Văn Đức",
+      "phone": "0666-777-888",
+      "address": "1212 Đường UVW, Quận XYZ, Thành phố HCM",
+      "email": "duc.hoang@example.com",
+      "salary": 9500000,
+      "status": "Đang làm việc"
+    },
+    {
+      "id": 6,
+      "name": "Mai Thị Em",
+      "phone": "0999-000-111",
+      "address": "1414 Đường XYZ, Quận ABC, Thành phố Hà Nội",
+      "email": "em.mai@example.com",
+      "salary": 8500000,
+      "status": "Nghỉ việc"
+    },
+    {
+      "id": 7,
+      "name": "Vũ Thị Hương",
+      "phone": "0222-333-444",
+      "address": "1616 Đường DEF, Quận LMN, Thành phố Đà Nẵng",
+      "email": "huong.vu@example.com",
+      "salary": 10500000,
+      "status": "Đang làm việc"
+    },
+    {
+      "id": 8,
+      "name": "Đinh Văn Khánh",
+      "phone": "0555-666-777",
+      "address": "1818 Đường GHI, Quận OPQ, Thành phố Cần Thơ",
+      "email": "khanh.dinh@example.com",
+      "salary": 9800000,
+      "status": "Đang làm việc"
+    },
+    {
+      "id": 9,
+      "name": "Lâm Thị Lan",
+      "phone": "0888-999-000",
+      "address": "2020 Đường KLM, Quận RST, Thành phố Hà Nội",
+      "email": "lan.lam@example.com",
+      "salary": 8700000,
+      "status": "Tạm nghỉ"
+    },
+    {
+      "id": 10,
+      "name": "Ngô Văn Minh",
+      "phone": "0777-888-999",
+      "address": "2222 Đường UVW, Quận XYZ, Thành phố Đà Nẵng",
+      "email": "minh.ngo@example.com",
+      "salary": 11500000,
+      "status": "Đang làm việc"
+    },
+    {
+      "id": 11,
+      "name": "Bùi Thị Ngọc",
+      "phone": "0444-555-666",
+      "address": "2424 Đường ABC, Quận LMN, Thành phố Cần Thơ",
+      "email": "ngoc.bui@example.com",
+      "salary": 9300000,
+      "status": "Đang làm việc"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "adminpassword",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Employee User 1",
+      "email": "employee1@example.com",
+      "password": "employeepassword1",
+      "role": "employee"
+    },
+    {
+      "id": 3,
+      "name": "Employee User 2",
+      "email": "employee2@example.com",
+      "password": "employeepassword2",
+      "role": "employee"
+    }
+  ]
+  
+}
